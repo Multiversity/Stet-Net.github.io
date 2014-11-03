@@ -555,7 +555,7 @@
 		{
 			position: relative;
 			display: inline-block;
-			background: #DF7366;
+			background: #d85c4d;
 			color: #fff;
 			text-align: center;
 			border-radius: 0.5em;
@@ -578,7 +578,7 @@
 			.button:hover
 			{
 				color: #fff;
-				background: #00b203;
+				background: #Df7366;
 			}
 			
 			input[type="button"].alt,
