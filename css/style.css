@@ -95,7 +95,7 @@
 	
 		a:hover
 		{
-			color: #ef8376;
+			color: #009E00;
 			border-bottom-color: transparent;
 		}
 
@@ -391,7 +391,7 @@
 					
 						ul.icons li a:hover
 						{
-							color: #ef8376;
+							color: #009E00;
 						}
 		
 		ol
@@ -464,7 +464,7 @@
 				form textarea:focus
 				{
 					background: #fff;
-					border-color: #df7366;
+					border-color: #000000;
 				}
 
 				form .formerize-placeholder
@@ -555,7 +555,7 @@
 		{
 			position: relative;
 			display: inline-block;
-			background: #d85c4d;
+			background: #FFFFFF;
 			color: #fff;
 			text-align: center;
 			border-radius: 0.5em;
@@ -578,7 +578,7 @@
 			.button:hover
 			{
 				color: #fff;
-				background: #Df7366;
+				background: #009933;
 			}
 			
 			input[type="button"].alt,
@@ -702,7 +702,7 @@
 			.homepage #header .overlay
 			{
 				content: '';
-				background: #d85c4d;
+				background: #009933;
 				display: block;
 				position: absolute;
 				left: 0;
@@ -905,7 +905,7 @@
 
 			.dropotron li:hover
 			{
-				color: #ef8376;
+				color: #00d800;
 			}
 
 			.dropotron li a,
