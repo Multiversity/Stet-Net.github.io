@@ -1,5 +1,5 @@
 /*
-	Helios by HTML5 UP
+	Escape Velocity by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -8,21 +8,45 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body,input,textarea,select
+	body
+	{
+		min-width: 1000px;
+	}
+
+	body, input, select, textarea
 	{
 		font-size: 12pt;
 		line-height: 1.5em;
+		letter-spacing: 0.015em;
+	}
+
+	body
+	{
+		min-width: 960px;
 	}
 
 /*********************************************************************************/
-/* Wrapper                                                                       */
+/* Wrappers                                                                      */
 /*********************************************************************************/
 
 	.wrapper
 	{
-		padding-left: 2em;
-		padding-right: 2em;
+		padding: 4em 0 7em 0;
 	}
+
+	#intro-wrapper
+	{
+		padding-bottom: 7em;
+	}
+	
+	#footer-wrapper
+	{
+	}
+
+		#footer-wrapper hr
+		{
+			margin: 3em 0 3em 0;
+		}
 	
 /*********************************************************************************/
 /* Header                                                                        */
@@ -30,31 +54,51 @@
 
 	#header
 	{
-		background-attachment: scroll;
+		padding: 10em 0;
 	}
 
-		#header .inner
+		.homepage #header
 		{
-			padding-left: 2em;
-			padding-right: 2em;
+			padding: 14em 0;
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-top: -0.5em !important;
+	}
+	
+		#logo h1
+		{
+			font-size: 1.75em;
+		}
+
+/*********************************************************************************/
+/* Intro                                                                         */
+/*********************************************************************************/
+
+	#intro
+	{
+	}
+
+		#intro > .style1
+		{
+			font-size: 1.25em;
+		}
+	
+		#intro > .style2
+		{
+			font-size: 2.25em;
 		}
 	
 /*********************************************************************************/
-/* Banner                                                                        */
+/* Copyright                                                                     */
 /*********************************************************************************/
 
-	#banner
+	#copyright
 	{
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-	
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-
-	#footer
-	{
-		padding-left: 2em;
-		padding-right: 2em;
+		margin: 3em 0 0 0;
 	}

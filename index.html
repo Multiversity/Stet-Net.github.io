@@ -2,15 +2,12 @@
 <html>
 	<head>
 		<title>Stet-Net</title>
-        <link rel="icon" type="image/png" href="images/favicon.png"/>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.onvisible.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
@@ -18,234 +15,181 @@
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
 
 		<!-- Header -->
-			<div id="header">
-						
-				<!-- Inner -->
-					<div class="inner">
-						<header>
-							<h1><a href="index.html" id="logo">Stet-Net</a></h1>
-							<hr />
-							<p>Puting America's Youth Back To Work</p>
-						</header>
-						<footer>
-							<a href="#banner" style="color:#000000" class="button circled scrolly">Start</a>
-						</footer>
-					</div>
-				
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Dropdown</a>
-								<ul>
-									<li><a href="#">Under Dev</a></li>
-									<li><a href="#">Under Dev</a></li>
-									<li><a href="#">Under Dev</a></li>
-									<li>
-										<a href="">Sub-Menu</a>
-										<ul>
-											<li><a href="#">Under Dev</a></li>
-											<li><a href="#">Under Dev</a></li>
-											<li><a href="#">Under Dev</a></li>
-											<li><a href="#">Under Dev</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Under Dev</a></li>
-								</ul>
-							</li>
-							<li><a href="left-sidebar.html">Left Sidebar Template</a></li>
-							<li><a href="right-sidebar.html">Right Sidebar Template</a></li>
-							<li><a href="no-sidebar.html">Services</a></li>
-							<li><a href="profile.html">Profile</a></li>
-						</ul>
-					</nav>
+			<div id="header-wrapper" class="wrapper">
+				<div id="header">
+					
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="index.html">Stet-Net</a></h1>
+							<p>The future of employment.</p>
+						</div>
+					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="index.html">Home</a></li>
+								<li>
+									<a href="">Dropdown</a>
+									<ul>
+										<li><a href="#">Under Dev</a></li>
+										<li><a href="#">Under Dev</a></li>
+										<li><a href="#">Under Dev</a></li>
+										<li>
+											<a href="">Under Dev</a>
+											<ul>
+												<li><a href="#">Under Dev</a></li>
+												<li><a href="#">Under Dev</a></li>
+												<li><a href="#">Under Dev</a></li>
+												<li><a href="#">Under Dev</a></li>
+												<li><a href="#">Under Dev</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Under Dev</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Left Sidebar</a></li>
+								<li><a href="#">Right Sidebar</a></li>
+								<li><a href="#">No Sidebar</a></li>
+							</ul>
+						</nav>
 
-			</div>
-			
-		<!-- Banner -->
-			<section id="banner">
-				<header>
-					<h2>Hi. Thanks for visiting <strong>Stet-Net</strong>.</h2>
-					<p>Click a category below.</p>
-				</header>
-			</section>
-
-		<!-- Carousel -->
-			<section class="carousel">
-				<div class="reel">
-
-					<article>
-						<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Category 1</a></h3>
-						</header>
-						<p>Text text text text text text text text text text text
-                         text text text text text text text.</p>							
-					</article>
-				
-					<article>
-						<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Category 2</a></h3>
-						</header>
-						<p>Text text text text text text text text text text text 
-                        text text text text text text text.</p>							
-					</article>
-				
-					<article>
-						<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Category 3</a></h3>
-						</header>
-						<p>Text text text text text text text text text text
-                         text text text text text text text text.</p>							
-					</article>
-				
-					<article>
-						<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Category 4</a></h3>
-						</header>
-						<p>Text  text text text text text text text text
-                         text text text text text text text text text.</p>							
-					</article>
-                    
-                    <article>
-						<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Category 5</a></h3>
-						</header>
-						<p>Text  text text text text text text text text
-                         text text text text text text text text text.</p>							
-					</article>
-                    
-                    <article>
-						<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Category etc</a></h3>
-						</header>
-						<p>Text  text text text text text text text text
-                         text text text text text text text text text.</p>							
-					</article>
 				</div>
-			</section>
-			
+			</div>
+		
+		<!-- Intro -->
+			<div id="intro-wrapper" class="wrapper style1">
+				<div class="title">The Introduction</div>
+				<section id="intro" class="container">
+					<p class="style1">So in case you were wondering what this is all about ...</p>
+					<p class="style2">
+						Stet-Net is a portal for the<br class="mobile-hide" />
+						employment of college student.
+					</p>
+					<p class="style3">If you are a <strong>college student</strong> and have a service you provide, this is <strong>your</strong> portal. Stet-Net will provide a way for students to <strong>sharpen</strong> their field of knowledge, <strong>enhance</strong> their interpersonal skills, and at the same time, provide the <strong>opportunity</strong> to make cash.</p>
+				</section>
+			</div>
+		
 		<!-- Main -->
 			<div class="wrapper style2">
-
-				<article id="main" class="container special">
-					<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-					<header>
-						<h2>The Stet-Net Vision</h2>
-						<p>--Insert vision here in the form of text or
-                        have a video play (ex below).--</p>
-					</header>
-					<div align="center">
-						<video src="sources/test.mp4" id="movie" controls width="80%" height="55%" />
-                   			</div>
-					<footer>
-						<a href="#" class="button">Learn More</a>
-					</footer>
-				</article>
-
-			</div>
-
-		<!-- Features -->
-			<div class="wrapper style1">
+				<div class="title">The Details</div>
+				<div id="main" class="container">
+					
+					<!-- Features -->
+						<section id="features">
+							<header class="style1">
+								<p>Below are the area of expertise each student will focus on through Stet-Net.</p>
+							</header>
+							<div class="feature-list">
+								<div class="row">
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-user">Professionalism</h3>
+											<p>The ability to maintain a professional appearance when working.</p>
+										</section>
+									</div>
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-check">Integrity</h3>
+											<p>Being honest with clients to ensure repeat business.</p>
+										</section>
+									</div>
+								</div>
+								<div class="row">
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-graduation-cap">Knowledge</h3>
+											<p>The demonstration of expertise in the field you provide services for.</p>
+										</section>
+									</div>
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-gears">Work Ethic</h3>
+											<p>Show proper attitude, superior knowledge, and demonstrate friendliness.</p>
+										</section>
+									</div>
+								</div>
+								<div class="row">
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-heart">Dedication</h3>
+											<p>The strive to achieve excellence and maintain focus.</p>
+										</section>
+									</div>
+									<div class="6u">
+										<section>
+											<h3 class="icon fa-thumbs-up">Loyalty</h3>
+											<p>Create trust and relationships among people.</p>
+										</section>
+									</div>
+								</div>
+							</div>
+							<ul class="actions actions-centered">
+								<li><a href="#" class="button style1 big">Get Your Page Now</a></li>
+							</ul>
+						</section>
 				
-				<section id="features" class="container special">
-					<header>
-						<h2>Founders</h2>
-						<p>Meet the foundation of Stet-Net!</p>
-					</header>
-					<div class="row">
-						<article class="4u special">
-							<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
-							<header>
-								<h3><a href="left-sidebar.html">Jason Imeidopf</a></h3>
-							</header>
-							<p>
-								Major: Computer Information Systems
-                            </p>
-                            <p>
-                                Minor: Management
-							</p>
-                            <p>
-                                 Goal: Provide friendly and efficient service.
-                            </p>
-						</article>
-						<article class="4u special">
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">&#8249;Insert Name Here&#8250;</a></h3>
-							</header>
-							<p>
-								Major:
-                            </p>
-                            <p>
-                                Minor:
-							</p>
-                            <p>
-                                 Goal:
-                            </p>
-						</article>
-						<article class="4u special">
-							<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">&#8249;Insert Name Here&#8250;</a></h3>
-							</header>
-							<p>
-								Major:
-                            </p>
-                            <p>
-                                Minor:
-							</p>
-                            <p>
-                                 Goal:
-                            </p>
-						</article>
+				</div>
+			</div>
+		
+		<!-- Highlights -->
+			<div class="wrapper style3">
+				<div class="title">The Foundation</div>
+				<div id="highlights" class="container">
+					<div class="row 150%">
+						<div class="4u">
+							<section class="highlight"> 
+								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="#">Jason Imeidopf</a></h3>
+								<ul class="actions">
+									<li><a href="#" class="button style1">View Page</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="highlight">
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="#">Insert Name Here</a></h3>
+								<ul class="actions">
+									<li><a href="#" class="button style1">View Page</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="highlight">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Insert Name Here</a></h3>
+								<ul class="actions">
+									<li><a href="#" class="button style1">View Page</a></li>
+								</ul>
+							</section>
+						</div>
 					</div>
-				</section>
-
+				</div>
 			</div>
 
 		<!-- Footer -->
-			<div id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="12u">
-							
-							<!-- Contact -->
-								<section class="contact">
-									<header>
-										<h3>Get Connected</h3>
-									</header>
-									<p>Connect, comment, and contact Stet-Net!</p>
-									<ul class="icons">
-										<li><a href="https://www.facebook.com/StetsonNetwork" class="icon fa-facebook"><span class="label">Facebook</span></a>Like</li>
-									</ul>
-								</section>
-							
-							<!-- Copyright -->
-								<div class="copyright">
-									<ul class="menu">
-										<li>&copy; Stet-Net. All rights reserved.</li>
-									</ul>
-								</div>
-							
-						</div>
-					
-					</div>
+			<div id="footer-wrapper" class="wrapper">
+				<div class="title">The Rest Of It</div>
+				<div id="footer" class="container">
+					<header class="style1">
+						<h2>Have questions for Stet-Net?</h2>
+						<p>
+							Please contact the lead contributor Jason Imeidopf with your questions, comments, and concerns @ jimeidop@stetson.edu.
+						</p>
+					</header>
+					<hr />
+				</div>
+				<div id="copyright">
+					<ul>
+						<li>&copy; Stet-Net 2014</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
 				</div>
 			</div>
-
 	</body>
 </html>
